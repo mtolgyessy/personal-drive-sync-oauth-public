@@ -1,1 +1,30 @@
-GitHub connector write test.
+# Personal Drive Sync — PUBLIC INFORMATIONAL SITE ONLY
+
+> ⚠️ **PUBLIC REPOSITORY. NO PROJECT FILES OR PRIVATE DATA.**
+>
+> This repository exists **only** to host two public OAuth information pages for a private-use rclone configuration. It is **not** a software development repository and must never become one.
+
+## Allowed files
+
+- `index.html` — public explanation of the personal synchronization configuration.
+- `privacy.html` — public privacy policy.
+- `styles.css` — styling for the two pages.
+- `README.md` — this public security boundary.
+
+## Never upload
+
+Source code from private projects; scripts; recovery outputs; photos; videos; documents; disk images; data samples; file lists or filenames from private storage; system or server paths; logs; SSH keys; OAuth secrets, tokens or credentials; rclone configuration files; backups; internal documentation; screenshots of private systems.
+
+## Hard separation
+
+- Do not configure this repository as a Git remote for any private project or server.
+- Do not connect this repository to automated automated server jobs, backups, Drive sync, rclone, or CI that accesses private files.
+- Do not clone it into a private project's working tree.
+- Edit and publish only the public informational pages, preferably via GitHub's web interface.
+- Any future private source-code hosting requires a different, private repository and explicit review.
+
+## Deployment
+
+For GitHub Pages, use **Settings → Pages → Deploy from a branch → main → /(root)**. Do not upload a ZIP as a single file: extract its contents and upload the individual files to the repository root.
+
+The Google OAuth homepage and privacy URLs must use the actual published HTTPS Pages address. Google may also require Google Search Console site-ownership verification.
